@@ -8,6 +8,6 @@ import './style.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <HelloWordApp/>
-        <FirtsApp title="Hola, soy goku"/>
+        <FirtsApp />
     </React.StrictMode>
 );

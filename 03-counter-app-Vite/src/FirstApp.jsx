@@ -22,3 +22,8 @@ FirtsApp.propTypes = {
     title: ProTypes.string.isRequired, // is Required significa que obligacion al poner titulo
     subtitle: ProTypes.string.isRequired
 }
+
+FirtsApp.defaultProps ={
+    title: 'No hay titulo',
+    subtitle: 'No hay subtitulo',
+}
